@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.list{
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.draggable{
+    padding: 1rem;
+    background-color: white;
+    border: 1xp solid black;
+    cursor: move;
+    margin-right: 1rem;
+}
+
+.draggable.dragging{
+    opacity: .5;
+}
+
+.clicked{
+    opacity: .7;
+}

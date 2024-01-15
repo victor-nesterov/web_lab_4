@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" integrity="sha384-c79GN5VsunZvi+Q/WObgk2in0CbZsHnjEqvFxC5DxHn9lTfNce2WW6h2pH6u/kF+" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="list">
+        <p class="draggable" draggable="true">1</p>
+        <p class="draggable" draggable="true">2</p>
+        <p class="draggable" draggable="true">3</p>
+        <p class="draggable" draggable="true">4</p>
+    </div>
+
+    <button onclick = "addDraggable()">Add new element</button>
+    <button onclick = "deleteClickedDraggables()">Remove selected elements</button>
+</body>
+</html>
